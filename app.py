@@ -67,6 +67,10 @@ def update(id):
         return render_template('update.html', task=task)
     return ''
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
 @app.errorhandler(404)
 def page_not_found(err):
     return render_template('err404.html'), 404
