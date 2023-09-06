@@ -67,5 +67,9 @@ def update(id):
         return render_template('update.html', task=task)
     return ''
 
+@app.errorhandler(404)
+def page_not_found(err):
+    return render_template('err404.html'), 404
+
 if __name__=='__main__':
     app.run(debug=True, port=4000)
