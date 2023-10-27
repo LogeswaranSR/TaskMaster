@@ -1,23 +1,35 @@
 body, html {
     margin: 0;
     font-family: sans-serif;
+    background-color: #282c34;
+    color: white;
+}
+
+h1{
+    text-align: center;
 }
 
 .content {
     margin: 0 auto;
     width: 400px;
+    background-color: #282c34;
+    color: white;
 }
 
-table, td, dh {
+table, td, th {
     border: 1px solid #aaa;
+    background-color: #282c34;
+    color: white;
 }
 
 table {
+    text-align: center;
     border-collapse: collapse;
     width: 100%;
 }
 
 th {
+    text-align: center;
     height: 30px;
 }
 
@@ -28,8 +40,12 @@ td {
 
 .form {
     margin-top: 20px;
+    background-color: #282c34;
+    color: white;
 }
 
 #content {
     width: 70%;
+    background-color: #282c34;
+    color: white;
 }
